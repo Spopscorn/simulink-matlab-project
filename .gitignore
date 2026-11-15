@@ -1,0 +1,31 @@
+# Cache e codice generato da Simulink
+slprj/
+*.slxc
+*_grt_rtw/
+*_ert_rtw/
+*_sfun*
+codegen/
+
+# Backup e autosave di MATLAB / Simulink
+*.asv
+*.autosave
+*.slx.autosave
+*.m~
+*.slx.r*
+*.mdl.r*
+
+# Binari compilati
+*.mex*
+*.exe
+*.dll
+*.obj
+
+# Risultati e log di simulazione
+*.log
+results/
+simout/
+
+# Sistema operativo / IDE
+.DS_Store
+Thumbs.db
+.vscode/
